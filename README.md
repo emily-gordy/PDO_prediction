@@ -39,6 +39,7 @@ As above but for analyzing samples where a PDO transition occurs 12-27 months fr
 
 ## Extras for people who scrolled this far
 
-- Let me know if you have comments on this! I want to hear them*
-  *except if they are comments about how my code could be better. This code is at its peak as is. I will hear no criticism
+Let me know if you have comments on this! I want to hear them*
+
+*except if they are comments about how my code could be better. This code is at its peak as is. I will hear no criticism
 
