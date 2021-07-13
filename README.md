@@ -1,2 +1,2 @@
 # PDO_prediction
-Python code for my PDO prediction experiment
+This is the code for the PDO prediction project, [link]
