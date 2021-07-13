@@ -16,4 +16,5 @@ The code in the pre-processing folder begins with CESM2 OHC and SST on 4x4 lat x
 
 ## Training the ANN
 
+By itself in the code directory is the python file for generating and training the neural networks in this study. They first take the netCDF4 files for OHC and PDO 
 
