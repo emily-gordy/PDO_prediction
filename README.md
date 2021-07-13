@@ -12,4 +12,8 @@ There are specific python packages that need to be installed. Note, the package 
 
 ## Pre-processing
 
-The code in the pre-processing folder begins with CESM2 OHC and SST on 4x4 lat x lon grid. First 
+The code in the pre-processing folder begins with CESM2 OHC and SST on 4x4 lat x lon grid. First the deseason file outputs the (unsmoothed) PDO index and individual deseasoned OHC grids. Secondly, savenn_input_output applies 6 month running mean smoothing to both OHC and PDO index, then puts the OHC maps into the required format for the ANN input (3x OHC grids, 4 months apart) so each row is one input sample. The output is the smoothed PDO index, and the OHC input grids, both as separate netCDF4 files.
+
+## Training the ANN
+
+
