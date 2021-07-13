@@ -12,13 +12,21 @@ There are specific python packages that need to be installed. Note, the package 
 
 ## Pre-processing
 
+PDO_prediction/code/Pre-Processing/save_OHCPDO_deseasoned
+
+PDO_prediction/code/Pre-Processing/save_nninput_output.py
+
 The code in the pre-processing folder begins with CESM2 OHC and SST on 4x4 lat x lon grid. First the deseason file outputs the (unsmoothed) PDO index and individual deseasoned OHC grids. Secondly, savenn_input_output applies 6 month running mean smoothing to both OHC and PDO index, then puts the OHC maps into the required format for the ANN input (3x OHC grids, 4 months apart) so each row is one input sample. The output is the smoothed PDO index, and the OHC input grids, both as separate netCDF4 files.
 
 ## Training the ANN
 
+PDO_prediction/code
+
 In the code directory is the python file for generating and training the neural networks in this study as well as saving the weights in hdf5 format so they can be loaded in later.
 
 ## Analyzing the ANN
+
+PDO_prediction/code/LRP
 
 These files use the innvestigate package to analyse the ANNs using LRP. There are two different files, one for looking at samples where the PDO persists, and one for analyzing samples where a PDO transition occurs 12-27 months from the input.
 
