@@ -16,5 +16,9 @@ The code in the pre-processing folder begins with CESM2 OHC and SST on 4x4 lat x
 
 ## Training the ANN
 
-By itself in the code directory is the python file for generating and training the neural networks in this study. They first take the netCDF4 files for OHC and PDO 
+In the code directory is the python file for generating and training the neural networks in this study as well as saving the weights in hdf5 format so they can be loaded in later.
+
+## Analyzing the ANN
+
+These files use the innvestigate package to analyse the ANNs using LRP. There are two different files, one for looking at samples where the PDO persists, and one for analyzing samples where a PDO transition occurs 12-27 months from the input.
 
