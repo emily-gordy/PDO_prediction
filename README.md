@@ -12,7 +12,7 @@ There are specific python packages that need to be installed. Note, the package 
 
 ## Pre-processing
 
-### PDO_prediction/code/Pre-Processing/save_deseasonedPDOandOHC.py
+#### PDO_prediction/code/Pre-Processing/save_deseasonedPDOandOHC.py
 
 This code assumes access to CESM2 OHC and SST on 4x4 lat x lon grid. The deseason file outputs the (unsmoothed) PDO index and individual deseasoned OHC grids. 
 
@@ -22,24 +22,24 @@ In savenn_input_output.py applies 6 month running mean smoothing to both OHC and
 
 ## Training the ANN
 
-### PDO_prediction/code/PDOtransition_fromOHC_trainnn.py
+#### PDO_prediction/code/PDOtransition_fromOHC_trainnn.py
 
 This is the python file for generating and training the neural networks in this study as well as saving the weights in hdf5 format so they can be loaded in later.
 
 ## Analyzing the ANN
 
-### PDO_prediction/code/LRP/LRP_PDOtransition_fromOHC_persistenceplots.py
+#### PDO_prediction/code/LRP/LRP_PDOtransition_fromOHC_persistenceplots.py
 
 This file use the innvestigate package to analyse the ANNs using LRP. This is specifically for looking at samples where the PDO persists.
 
-### PDO_prediction/code/LRP/LRP_PDOtransition_fromOHCtransitionplots.py
+#### PDO_prediction/code/LRP/LRP_PDOtransition_fromOHCtransitionplots.py
 
 As above but for analyzing samples where a PDO transition occurs 12-27 months from the input.
 
 
 ## Extras for people who scrolled this far
 
-Let me know if you have comments on this! I want to hear them*
+Let me know if you have comments on this! I am open to questions about setting up environments all the way through to making the analyzer work. I love comments*
 
 *except if they are comments about how my code could be better. This code is at its peak as is. I will hear no criticism
 
