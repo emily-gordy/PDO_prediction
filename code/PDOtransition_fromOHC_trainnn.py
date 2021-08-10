@@ -173,7 +173,7 @@ for seed in random_seeds:
     togethertrain1all = togethertraingrab[togethertraingrab[:,-3]==1,:] # all transition in training
     sizetrainall = np.shape(togethertrain1all)[0] # number of transitions in training
     # randomly grab transition samples equal to number of persistence samples
-    togethertrain1 = togethertrain1all[np.random.randint(0,sizetrainall,sizetrain)]
+    togethertrain1 = togethertrain1all[np.random.choice(sizetrainall,sizetrain,replace=False)]
     
     togethertrain = np.concatenate((togethertrain0,togethertrain1))
     
@@ -187,7 +187,7 @@ for seed in random_seeds:
     
     togetherval1all = togethervalgrab[togethervalgrab[:,-3]==1,:]
     sizevalall = np.shape(togetherval1all)[0]
-    togetherval1 = togetherval1all[np.random.randint(0,sizevalall,sizeval)]
+    togetherval1 = togetherval1all[np.random.choice(sizevalall,sizeval,replace=False)]
     
     togetherval = np.concatenate((togetherval0,togetherval1))
     
