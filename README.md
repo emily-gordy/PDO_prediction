@@ -1,5 +1,5 @@
 # PDO prediction
-This is the code for the PDO prediction project, [link]
+This is the code for the [PDO prediction project](https://www.essoar.org/doi/10.1002/essoar.10507680.1)
 
 This contains python code written in python 3.9 to pre-process data, create the ANNs, and to analyze the ANNs using layer-wise relevance propagation (LRP).
 
@@ -41,5 +41,5 @@ As above but for analyzing samples where a PDO transition occurs 12-27 months fr
 
 Let me know if you have comments on this! I am open to questions about setting up environments all the way through to making the analyzer work. I love comments*
 
-*except if they are comments about how my code could be better. This code is at its peak as is. I will hear no criticism
+*except if they are comments about how my code could run better. This code is at its peak as is. I will hear no criticism
 
