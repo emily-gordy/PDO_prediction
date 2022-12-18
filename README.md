@@ -1,5 +1,5 @@
 # PDO prediction
-This is the code for the [PDO prediction project](https://www.essoar.org/doi/10.1002/essoar.10507680.1)
+This is the code for [Gordon et. al 2021](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GL095392) (the one with the word "harbingers" in the title)
 
 This contains python code written in python 3.9 to pre-process data, create the ANNs, and to analyze the ANNs using layer-wise relevance propagation (LRP).
 
